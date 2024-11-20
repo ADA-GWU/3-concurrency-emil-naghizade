@@ -1,0 +1,46 @@
+# Ignore build directories
+build/
+bin/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Ignore IDE or editor specific files
+.vscode/
+.idea/
+*.vs/
+*.vscode/
+
+# Ignore temporary files
+*.log
+*.swp
+*.swo
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files
+*.exe
+*.out
+*.o
+*.obj
+*.pdb
+*.lib
+*.dll
+
+# Ignore OpenCV-specific binaries and libraries
+opencv/.build/
+opencv/.vs/
+opencv/.config/
+opencv/*.pdb
+opencv/*.obj
+opencv/*.dll
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
+ehthumbs.db
