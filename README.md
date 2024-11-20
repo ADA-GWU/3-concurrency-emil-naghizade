@@ -217,8 +217,8 @@ int main(int argc, char* argv[]) {
 
 ## Code Explanation
 
-This code uses OpenCV library functions to read color channels, modify and display the image data. <br/>
-First of all, this code is intended to be OS-independent. Therefore in order to obtain the screen size information from the operation system to use in the resizing function, below code that gets the width and height size of the screen from the operation system (Windows, Linux, or MacOS) was implemented.
+This code uses OpenCV (Version 4.7.0) library functions to read color channels, modify and display the image data. <br/>
+First of all, this code is intended to be OS-independent. Therefore to obtain the screen size information from the operation system to use in the resizing function, below code that gets the width and height size of the screen from the operation system (Windows, Linux, or MacOS) was implemented.
 
 ```
 #if defined(_WIN32) || defined(_WIN64)
