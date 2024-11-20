@@ -1,0 +1,891 @@
+﻿  Source.cpp
+  Starting pass 1
+  Processed /DEFAULTLIB:msvcprtd
+  Processed /DEFAULTLIB:uuid.lib
+  Processed /DEFAULTLIB:MSVCRTD
+  Processed /DEFAULTLIB:OLDNAMES
+  Searching libraries
+      Searching C:\opencv\build\x64\vc16\lib\opencv_world470.lib:
+        Found "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z)
+          Referenced in Source.obj
+      Searching C:\opencv\build\x64\vc16\lib\opencv_world470d.lib:
+        Found "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z)
+          Referenced in Source.obj
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\user32.lib:
+        Found __imp__GetSystemMetrics@4
+          Referenced in Source.obj
+          Loaded user32.lib(USER32.dll)
+        Found __IMPORT_DESCRIPTOR_USER32
+          Referenced in user32.lib(USER32.dll)
+          Loaded user32.lib(USER32.dll)
+        Found __NULL_IMPORT_DESCRIPTOR
+          Referenced in user32.lib(USER32.dll)
+          Loaded user32.lib(USER32.dll)
+        Found USER32_NULL_THUNK_DATA
+          Referenced in user32.lib(USER32.dll)
+          Loaded user32.lib(USER32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\msvcprtd.lib:
+        Found "__declspec(dllimport) public: __thiscall std::_Lockit::_Lockit(int)" (__imp_??0_Lockit@std@@QAE@H@Z)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "__declspec(dllimport) public: __thiscall std::_Lockit::~_Lockit(void)" (__imp_??1_Lockit@std@@QAE@XZ)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "void __cdecl std::_Xbad_alloc(void)" (?_Xbad_alloc@std@@YAXXZ)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "void __cdecl std::_Xinvalid_argument(char const *)" (?_Xinvalid_argument@std@@YAXPBD@Z)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "void __cdecl std::_Xlength_error(char const *)" (?_Xlength_error@std@@YAXPBD@Z)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "void __cdecl std::_Xout_of_range(char const *)" (?_Xout_of_range@std@@YAXPBD@Z)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "bool __cdecl std::uncaught_exception(void)" (?uncaught_exception@std@@YA_NXZ)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found __Thrd_join
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found __Thrd_hardware_concurrency
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found __Thrd_id
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found __Mtx_init_in_situ
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found __Mtx_destroy_in_situ
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found __Mtx_lock
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found __Mtx_unlock
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found __Cnd_do_broadcast_at_thread_exit
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "void __cdecl std::_Throw_C_error(int)" (?_Throw_C_error@std@@YAXH@Z)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "void __cdecl std::_Throw_Cpp_error(int)" (?_Throw_Cpp_error@std@@YAXH@Z)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found __Mbrtowc
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "__declspec(dllimport) public: struct _Cvtvec __thiscall std::_Locinfo::_Getcvt(void)const " (__imp_?_Getcvt@_Locinfo@std@@QBE?AU_Cvtvec@@XZ)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "__declspec(dllimport) public: char const * __thiscall std::_Locinfo::_Getdays(void)const " (__imp_?_Getdays@_Locinfo@std@@QBEPBDXZ)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "__declspec(dllimport) public: char const * __thiscall std::_Locinfo::_Getmonths(void)const " (__imp_?_Getmonths@_Locinfo@std@@QBEPBDXZ)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "__declspec(dllimport) public: unsigned short const * __thiscall std::_Locinfo::_W_Getdays(void)const " (__imp_?_W_Getdays@_Locinfo@std@@QBEPBGXZ)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "__declspec(dllimport) public: unsigned short const * __thiscall std::_Locinfo::_W_Getmonths(void)const " (__imp_?_W_Getmonths@_Locinfo@std@@QBEPBGXZ)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "__declspec(dllimport) public: bool __thiscall std::ios_base::good(void)const " (__imp_?good@ios_base@std@@QBE_NXZ)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "__declspec(dllimport) public: int __thiscall std::ios_base::flags(void)const " (__imp_?flags@ios_base@std@@QBEHXZ)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "__declspec(dllimport) public: __int64 __thiscall std::ios_base::width(void)const " (__imp_?width@ios_base@std@@QBE_JXZ)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "__declspec(dllimport) public: __int64 __thiscall std::ios_base::width(__int64)" (__imp_?width@ios_base@std@@QAE_J_J@Z)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "__declspec(dllimport) public: int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputc(char)" (__imp_?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "__declspec(dllimport) public: __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputn(char const *,__int64)" (__imp_?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "__declspec(dllimport) public: void __thiscall std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)" (__imp_?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > * __thiscall std::basic_ios<char,struct std::char_traits<char> >::tie(void)const " (__imp_?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "__declspec(dllimport) public: class std::basic_streambuf<char,struct std::char_traits<char> > * __thiscall std::basic_ios<char,struct std::char_traits<char> >::rdbuf(void)const " (__imp_?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "__declspec(dllimport) public: char __thiscall std::basic_ios<char,struct std::char_traits<char> >::fill(void)const " (__imp_?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDXZ)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "__declspec(dllimport) public: void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)" (__imp_?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::flush(void)" (__imp_?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "__declspec(dllimport) class std::basic_ostream<char,struct std::char_traits<char> > std::cerr" (__imp_?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A)
+          Referenced in Source.obj
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found __IMPORT_DESCRIPTOR_MSVCP140D
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found MSVCP140D_NULL_THUNK_DATA
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\MSVCRTD.lib:
+        Found "void __stdcall `eh vector destructor iterator'(void *,unsigned int,unsigned int,void (__thiscall*)(void *))" (??_M@YGXPAXIIP6EX0@Z@Z)
+          Referenced in Source.obj
+          Loaded MSVCRTD.lib(ehvecdtr.obj)
+        Found "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+          Referenced in Source.obj
+          Loaded MSVCRTD.lib(new_scalar.obj)
+        Found "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+          Referenced in Source.obj
+          Loaded MSVCRTD.lib(delete_scalar_size.obj)
+        Found "void __cdecl operator delete[](void *,unsigned int)" (??_V@YAXPAXI@Z)
+          Referenced in Source.obj
+          Loaded MSVCRTD.lib(delete_array_size.obj)
+        Found _atexit
+          Referenced in Source.obj
+          Loaded MSVCRTD.lib(utility.obj)
+        Found @_RTC_CheckStackVars@8
+          Referenced in Source.obj
+          Loaded MSVCRTD.lib(stack.obj)
+        Found @__CheckForDebuggerJustMyCode@4
+          Referenced in Source.obj
+          Loaded MSVCRTD.lib(debugger_jmc.obj)
+        Found @__security_check_cookie@4
+          Referenced in Source.obj
+          Loaded MSVCRTD.lib(secchk.obj)
+        Found __RTC_InitBase
+          Referenced in Source.obj
+          Loaded MSVCRTD.lib(init.obj)
+        Found "const type_info::`vftable'" (??_7type_info@@6B@)
+          Referenced in Source.obj
+          Loaded MSVCRTD.lib(std_type_info_static.obj)
+        Found ___security_cookie
+          Referenced in Source.obj
+          Referenced in MSVCRTD.lib(ehvecdtr.obj)
+          Referenced in MSVCRTD.lib(utility.obj)
+          Referenced in MSVCRTD.lib(secchk.obj)
+          Loaded MSVCRTD.lib(gs_cookie.obj)
+        Found __fltused
+          Referenced in Source.obj
+          Loaded MSVCRTD.lib(fltused.obj)
+        Found _mainCRTStartup
+          Loaded MSVCRTD.lib(exe_main.obj)
+        Found __except_handler4
+          Referenced in MSVCRTD.lib(ehvecdtr.obj)
+          Referenced in MSVCRTD.lib(utility.obj)
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded MSVCRTD.lib(chandler4gs.obj)
+        Found ___guard_check_icall_fptr
+          Referenced in MSVCRTD.lib(ehvecdtr.obj)
+          Referenced in MSVCRTD.lib(utility.obj)
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded MSVCRTD.lib(guard_support.obj)
+        Found "void __cdecl __scrt_throw_std_bad_alloc(void)" (?__scrt_throw_std_bad_alloc@@YAXXZ)
+          Referenced in MSVCRTD.lib(new_scalar.obj)
+          Loaded MSVCRTD.lib(throw_bad_alloc.obj)
+        Found "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+          Referenced in MSVCRTD.lib(delete_scalar_size.obj)
+          Loaded MSVCRTD.lib(delete_scalar.obj)
+        Found "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+          Referenced in MSVCRTD.lib(delete_array_size.obj)
+          Loaded MSVCRTD.lib(delete_array.obj)
+        Found ___isa_available_init
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded MSVCRTD.lib(cpu_disp.obj)
+        Found __get_startup_argv_mode
+          Referenced in MSVCRTD.lib(utility.obj)
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded MSVCRTD.lib(argv_mode.obj)
+        Found ___scrt_is_ucrt_dll_in_use
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded MSVCRTD.lib(ucrt_detection.obj)
+        Found ___scrt_fastfail
+          Referenced in MSVCRTD.lib(utility.obj)
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded MSVCRTD.lib(utility_desktop.obj)
+        Found "void __cdecl _RTC_Failure(void *,int)" (?_RTC_Failure@@YAXPAXH@Z)
+          Referenced in MSVCRTD.lib(stack.obj)
+          Loaded MSVCRTD.lib(error.obj)
+        Found ___report_gsfailure
+          Referenced in MSVCRTD.lib(secchk.obj)
+          Loaded MSVCRTD.lib(gs_report.obj)
+        Found __RTC_SetErrorFuncW
+          Referenced in MSVCRTD.lib(init.obj)
+          Loaded MSVCRTD.lib(userapi.obj)
+        Found ___security_init_cookie
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded MSVCRTD.lib(gs_support.obj)
+        Found __matherr
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded MSVCRTD.lib(matherr.obj)
+        Found __get_startup_commit_mode
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded MSVCRTD.lib(commit_mode.obj)
+        Found __get_startup_file_mode
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded MSVCRTD.lib(file_mode.obj)
+        Found __get_startup_new_mode
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded MSVCRTD.lib(new_mode.obj)
+        Found __get_startup_thread_locale_mode
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded MSVCRTD.lib(thread_locale.obj)
+        Found "void __cdecl __scrt_initialize_type_info(void)" (?__scrt_initialize_type_info@@YAXXZ)
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded MSVCRTD.lib(tncleanup.obj)
+        Found __should_initialize_environment
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded MSVCRTD.lib(env_mode.obj)
+        Found __initialize_default_precision
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded MSVCRTD.lib(default_precision.obj)
+        Found __initialize_invalid_parameter_handler
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded MSVCRTD.lib(invalid_parameter_handler.obj)
+        Found __initialize_denormal_control
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded MSVCRTD.lib(denormal_control.obj)
+        Found ___scrt_initialize_default_local_stdio_options
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded MSVCRTD.lib(default_local_stdio_options.obj)
+        Found ___scrt_is_user_matherr_present
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded MSVCRTD.lib(matherr_detection.obj)
+        Found ___scrt_get_dyn_tls_init_callback
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded MSVCRTD.lib(dyn_tls_init.obj)
+        Found ___scrt_get_dyn_tls_dtor_callback
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded MSVCRTD.lib(dyn_tls_dtor.obj)
+        Found __RTC_Initialize
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded MSVCRTD.lib(initsect.obj)
+        Found ___xi_a
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded MSVCRTD.lib(initializers.obj)
+  Processed /DEFAULTLIB:kernel32.lib
+   Processed /DISALLOWLIB:msvcrt.lib
+   Processed /DISALLOWLIB:libcmt.lib
+   Processed /DISALLOWLIB:libcmtd.lib
+   Processed /DISALLOWLIB:vcruntime.lib
+  Processed /DEFAULTLIB:vcruntimed.lib
+   Processed /DISALLOWLIB:libvcruntime.lib
+   Processed /DISALLOWLIB:libvcruntimed.lib
+   Processed /DISALLOWLIB:ucrt.lib
+  Processed /DEFAULTLIB:ucrtd.lib
+   Processed /DISALLOWLIB:libucrt.lib
+   Processed /DISALLOWLIB:libucrtd.lib
+        Found "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z)
+          Referenced in MSVCRTD.lib(error.obj)
+          Loaded MSVCRTD.lib(pdblkup.obj)
+        Found __except_handler4_noexcept
+          Referenced in MSVCRTD.lib(error.obj)
+          Loaded MSVCRTD.lib(chandler4_noexcept.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\vcruntimed.lib:
+        Found _memcpy
+          Referenced in Source.obj
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found _memmove
+          Referenced in Source.obj
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found ___std_exception_copy
+          Referenced in Source.obj
+          Referenced in MSVCRTD.lib(throw_bad_alloc.obj)
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found ___std_exception_destroy
+          Referenced in Source.obj
+          Referenced in MSVCRTD.lib(throw_bad_alloc.obj)
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found __CxxThrowException@8
+          Referenced in Source.obj
+          Referenced in MSVCRTD.lib(throw_bad_alloc.obj)
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found ___CxxFrameHandler3
+          Referenced in Source.obj
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found _memset
+          Referenced in Source.obj
+          Referenced in MSVCRTD.lib(utility_desktop.obj)
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found ___current_exception
+          Referenced in MSVCRTD.lib(ehvecdtr.obj)
+          Referenced in MSVCRTD.lib(utility_desktop.obj)
+          Referenced in MSVCRTD.lib(chandler4_noexcept.obj)
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found ___current_exception_context
+          Referenced in MSVCRTD.lib(ehvecdtr.obj)
+          Referenced in MSVCRTD.lib(utility_desktop.obj)
+          Referenced in MSVCRTD.lib(chandler4_noexcept.obj)
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found __except_handler4_common
+          Referenced in MSVCRTD.lib(chandler4gs.obj)
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found ___std_type_info_destroy_list
+          Referenced in MSVCRTD.lib(tncleanup.obj)
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found ___vcrt_GetModuleFileNameW
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found ___vcrt_GetModuleHandleW
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found ___vcrt_LoadLibraryExW
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found __IMPORT_DESCRIPTOR_VCRUNTIME140D
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+        Found VCRUNTIME140D_NULL_THUNK_DATA
+          Referenced in vcruntimed.lib(VCRUNTIME140D.dll)
+          Loaded vcruntimed.lib(VCRUNTIME140D.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\ucrt\x86\ucrtd.lib:
+        Found __imp___invalid_parameter
+          Referenced in Source.obj
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp___calloc_dbg
+          Referenced in Source.obj
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp___CrtDbgReport
+          Referenced in Source.obj
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp___errno
+          Referenced in Source.obj
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp__strtol
+          Referenced in Source.obj
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp__wcslen
+          Referenced in Source.obj
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found _strlen
+          Referenced in Source.obj
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp__terminate
+          Referenced in Source.obj
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp___beginthreadex
+          Referenced in Source.obj
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __callnewh
+          Referenced in MSVCRTD.lib(new_scalar.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found _malloc
+          Referenced in MSVCRTD.lib(new_scalar.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __seh_filter_dll
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __configure_narrow_argv
+          Referenced in MSVCRTD.lib(utility.obj)
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __initialize_narrow_environment
+          Referenced in MSVCRTD.lib(utility.obj)
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __initialize_onexit_table
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __register_onexit_function
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __execute_onexit_table
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __crt_atexit
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __crt_at_quick_exit
+          Referenced in MSVCRTD.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __cexit
+          Referenced in MSVCRTD.lib(utility.obj)
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __CrtDbgReportW
+          Referenced in MSVCRTD.lib(init.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __seh_filter_exe
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __set_app_type
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found ___setusermatherr
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __get_initial_narrow_environment
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __initterm
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __initterm_e
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found _exit
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __exit
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __set_fmode
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found ___p___argc
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found ___p___argv
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __c_exit
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __register_thread_local_exe_atexit_callback
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __configthreadlocale
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __set_new_mode
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found ___p__commode
+          Referenced in MSVCRTD.lib(exe_main.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __free_dbg
+          Referenced in MSVCRTD.lib(delete_scalar.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found _strcpy_s
+          Referenced in MSVCRTD.lib(error.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found _strcat_s
+          Referenced in MSVCRTD.lib(error.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found ___stdio_common_vsprintf_s
+          Referenced in MSVCRTD.lib(error.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __controlfp_s
+          Referenced in MSVCRTD.lib(default_precision.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __wmakepath_s
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __wsplitpath_s
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found _wcscpy_s
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __IMPORT_DESCRIPTOR_ucrtbased
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found ucrtbased_NULL_THUNK_DATA
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Loaded ucrtd.lib(ucrtbased.dll)
+      Searching C:\opencv\build\x64\vc16\lib\opencv_world470.lib:
+        Found "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z)
+          Referenced in Source.obj
+      Searching C:\opencv\build\x64\vc16\lib\opencv_world470d.lib:
+        Found "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z)
+          Referenced in Source.obj
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\kernel32.lib:
+        Found __imp__GetCurrentThreadId@0
+          Referenced in MSVCRTD.lib(debugger_jmc.obj)
+          Referenced in MSVCRTD.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__IsProcessorFeaturePresent@4
+          Referenced in MSVCRTD.lib(cpu_disp.obj)
+          Referenced in MSVCRTD.lib(utility_desktop.obj)
+          Referenced in MSVCRTD.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__IsDebuggerPresent@0
+          Referenced in MSVCRTD.lib(utility_desktop.obj)
+          Referenced in MSVCRTD.lib(error.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__UnhandledExceptionFilter@4
+          Referenced in MSVCRTD.lib(utility_desktop.obj)
+          Referenced in MSVCRTD.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__SetUnhandledExceptionFilter@4
+          Referenced in MSVCRTD.lib(utility_desktop.obj)
+          Referenced in MSVCRTD.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetStartupInfoW@4
+          Referenced in MSVCRTD.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetModuleHandleW@4
+          Referenced in MSVCRTD.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__RaiseException@16
+          Referenced in MSVCRTD.lib(error.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__MultiByteToWideChar@24
+          Referenced in MSVCRTD.lib(error.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__WideCharToMultiByte@32
+          Referenced in MSVCRTD.lib(error.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentProcess@0
+          Referenced in MSVCRTD.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__TerminateProcess@8
+          Referenced in MSVCRTD.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__QueryPerformanceCounter@4
+          Referenced in MSVCRTD.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentProcessId@0
+          Referenced in MSVCRTD.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetSystemTimeAsFileTime@4
+          Referenced in MSVCRTD.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__InitializeSListHead@4
+          Referenced in MSVCRTD.lib(tncleanup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetLastError@0
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__HeapAlloc@12
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__HeapFree@12
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetProcessHeap@0
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__VirtualQuery@12
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__FreeLibrary@4
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetProcAddress@8
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __IMPORT_DESCRIPTOR_KERNEL32
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found KERNEL32_NULL_THUNK_DATA
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\MSVCRTD.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\vcruntimed.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\ucrt\x86\ucrtd.lib:
+      Searching C:\opencv\build\x64\vc16\lib\opencv_world470.lib:
+        Found "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z)
+          Referenced in Source.obj
+      Searching C:\opencv\build\x64\vc16\lib\opencv_world470d.lib:
+        Found "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z)
+          Referenced in Source.obj
+  Finished searching libraries
+  Searching libraries
+      Searching C:\opencv\build\x64\vc16\lib\opencv_world470.lib:
+        Found "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z)
+          Referenced in Source.obj
+      Searching C:\opencv\build\x64\vc16\lib\opencv_world470d.lib:
+        Found "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z)
+          Referenced in Source.obj
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\MSVCRTD.lib:
+        Found ___scrt_stub_for_acrt_initialize
+          Loaded MSVCRTD.lib(ucrt_stubs.obj)
+        Found __filter_x86_sse2_floating_point_exception_default
+          Loaded MSVCRTD.lib(x86_exception_filter.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\vcruntimed.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\ucrt\x86\ucrtd.lib:
+  Finished searching libraries
+  Searching libraries
+      Searching C:\opencv\build\x64\vc16\lib\opencv_world470.lib:
+      Searching C:\opencv\build\x64\vc16\lib\opencv_world470d.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\MSVCRTD.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\vcruntimed.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\ucrt\x86\ucrtd.lib:
+  Finished searching libraries
+  Searching libraries
+      Searching C:\opencv\build\x64\vc16\lib\opencv_world470.lib:
+        Found "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z)
+          Referenced in Source.obj
+      Searching C:\opencv\build\x64\vc16\lib\opencv_world470d.lib:
+        Found "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z)
+          Referenced in Source.obj
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\MSVCRTD.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\vcruntimed.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\ucrt\x86\ucrtd.lib:
+  Finished searching libraries
+  Finished pass 1
+  Generating non-SAFESEH image.
+  Searching libraries
+      Searching C:\opencv\build\x64\vc16\lib\opencv_world470.lib:
+        Found "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z)
+          Referenced in Source.obj
+      Searching C:\opencv\build\x64\vc16\lib\opencv_world470d.lib:
+        Found "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z)
+          Referenced in Source.obj
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\MSVCRTD.lib:
+        Found __load_config_used
+          Loaded MSVCRTD.lib(loadcfg.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\vcruntimed.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\ucrt\x86\ucrtd.lib:
+  Finished searching libraries
+  Invoking rc.exe:
+   /v
+   /x
+   /fo
+   "C:\Users\emiln\AppData\Local\Temp\lnk{27B07AF7-3D3D-462B-8E3D-C3E3CF5A06E3}.tmp"
+   "C:\Users\emiln\AppData\Local\Temp\lnk{FE7ABA98-C080-47D5-B98F-E16186C9A757}.tmp"
+  Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+  Creating C:\Users\emiln\AppData\Local\Temp\lnk{27B07AF7-3D3D-462B-8E3D-C3E3CF5A06E3}.tmp
+  
+  Using codepage 1252 as default
+  
+  C:\Users\emiln\AppData\Local\Temp\lnk{FE7ABA98-C080-47D5-B98F-E16186C9A757}.tmp.
+  Writing 24:1,	lang:0x409,	size 381
+  Invoking cvtres.exe:
+   /machine:x86
+   /verbose
+   /out:"C:\Users\emiln\AppData\Local\Temp\lnk{F15EAA65-EA10-4574-8EDF-8EE4F1D3DC77}.tmp"
+   /readonly
+   "C:\Users\emiln\AppData\Local\Temp\lnk{27B07AF7-3D3D-462B-8E3D-C3E3CF5A06E3}.tmp"
+  Microsoft (R) Windows Resource To Object Converter Version 14.29.30156.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  adding resource. type:MANIFEST, name:1, language:0x0409, flags:0x30, size:381
+Source.obj : error LNK2019: unresolved external symbol "void __cdecl cv::error(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,char const *,char const *,int)" (?error@cv@@YAXHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PBD1H@Z) referenced in function "public: class cv::Vec<unsigned char,3> & __thiscall cv::Mat::at<class cv::Vec<unsigned char,3> >(int,int)" (??$at@V?$Vec@E$02@cv@@@Mat@cv@@QAEAAV?$Vec@E$02@1@HH@Z)
+Source.obj : error LNK2019: unresolved external symbol "public: __thiscall cv::Mat::Mat(void)" (??0Mat@cv@@QAE@XZ) referenced in function "class cv::Mat __cdecl resizeImageForDisplay(class cv::Mat const &,int,int)" (?resizeImageForDisplay@@YA?AVMat@cv@@ABV12@HH@Z)
+Source.obj : error LNK2019: unresolved external symbol "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ) referenced in function "class cv::Mat __cdecl resizeImageForDisplay(class cv::Mat const &,int,int)" (?resizeImageForDisplay@@YA?AVMat@cv@@ABV12@HH@Z)
+Source.obj : error LNK2019: unresolved external symbol "public: bool __thiscall cv::Mat::empty(void)const " (?empty@Mat@cv@@QBE_NXZ) referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol "public: __thiscall cv::Mat::Mat(class cv::Mat &&)" (??0Mat@cv@@QAE@$$QAV01@@Z) referenced in function "class cv::Mat __cdecl resizeImageForDisplay(class cv::Mat const &,int,int)" (?resizeImageForDisplay@@YA?AVMat@cv@@ABV12@HH@Z)
+Source.obj : error LNK2019: unresolved external symbol "class cv::Mat __cdecl cv::imread(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?imread@cv@@YA?AVMat@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol "bool __cdecl cv::imwrite(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::debug_build_guard::_InputArray const &,class std::vector<int,class std::allocator<int> > const &)" (?imwrite@cv@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV_InputArray@debug_build_guard@1@ABV?$vector@HV?$allocator@H@std@@@3@@Z) referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z) referenced in function "public: __thiscall <lambda_cd95b301c4567d9b8cdc773c83340af5>::operator()(void)const " (??R<lambda_cd95b301c4567d9b8cdc773c83340af5>@@QBE@XZ)
+Source.obj : error LNK2019: unresolved external symbol "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::debug_build_guard::_InputArray const &)" (?imshow@cv@@YAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV_InputArray@debug_build_guard@1@@Z) referenced in function "public: __thiscall <lambda_cd95b301c4567d9b8cdc773c83340af5>::operator()(void)const " (??R<lambda_cd95b301c4567d9b8cdc773c83340af5>@@QBE@XZ)
+Source.obj : error LNK2019: unresolved external symbol "void __cdecl cv::resize(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,class cv::Size_<int>,double,double,int)" (?resize@cv@@YAXABV_InputArray@debug_build_guard@1@ABV_OutputArray@31@V?$Size_@H@1@NNH@Z) referenced in function "class cv::Mat __cdecl resizeImageForDisplay(class cv::Mat const &,int,int)" (?resizeImageForDisplay@@YA?AVMat@cv@@ABV12@HH@Z)
+C:\opencv\build\x64\vc16\lib\opencv_world470.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\opencv\build\x64\vc16\lib\opencv_world470d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+  Unused libraries:
+    C:\opencv\build\x64\vc16\lib\opencv_world470.lib
+    C:\opencv\build\x64\vc16\lib\opencv_world470d.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\gdi32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\winspool.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\comdlg32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\advapi32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\shell32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\ole32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\oleaut32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\uuid.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\odbc32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x86\odbccp32.lib
+    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\OLDNAMES.lib
+C:\Software Paradigms\Assignment_3\Debug\Assignment_3.exe : fatal error LNK1120: 10 unresolved externals
